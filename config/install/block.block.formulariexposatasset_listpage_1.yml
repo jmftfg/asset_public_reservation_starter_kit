@@ -1,0 +1,25 @@
+langcode: ca
+status: true
+dependencies:
+  config:
+    - views.view.asset_list
+  module:
+    - system
+    - views
+id: formulariexposatasset_listpage_1
+theme: banc_recursos_cal_temerari
+region: content
+weight: -1
+provider: null
+plugin: 'views_exposed_filter_block:asset_list-page_1'
+settings:
+  id: 'views_exposed_filter_block:asset_list-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /catalog
+    negate: false

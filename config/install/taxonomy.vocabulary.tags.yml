@@ -1,0 +1,7 @@
+langcode: ca
+status: true
+dependencies: {  }
+name: Etiquetes
+vid: tags
+description: 'Utilitzeu les etiquetes per a agrupar en categories els articles de temes similars.'
+weight: 0

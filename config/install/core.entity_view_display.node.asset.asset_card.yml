@@ -1,0 +1,65 @@
+langcode: ca
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.asset_card
+    - field.field.node.asset.body
+    - field.field.node.asset.field_asset_category
+    - field.field.node.asset.field_asset_image
+    - field.field.node.asset.field_management_notes
+    - field.field.node.asset.field_tags
+    - field.field.node.asset.field_usage_instructions
+    - node.type.asset
+  module:
+    - image
+    - text
+    - user
+id: node.asset.asset_card
+targetEntityType: node
+bundle: asset
+mode: asset_card
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_asset_category:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_asset_image:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tags:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_management_notes: true
+  field_usage_instructions: true
+  langcode: true

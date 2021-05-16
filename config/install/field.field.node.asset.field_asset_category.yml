@@ -1,0 +1,28 @@
+langcode: ca
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_asset_category
+    - node.type.asset
+    - taxonomy.vocabulary.asset_category
+id: node.asset.field_asset_category
+field_name: field_asset_category
+entity_type: node
+bundle: asset
+label: 'Asset category'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      asset_category: asset_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

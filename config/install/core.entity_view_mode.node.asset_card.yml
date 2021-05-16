@@ -1,0 +1,9 @@
+langcode: ca
+status: true
+dependencies:
+  module:
+    - node
+id: node.asset_card
+label: 'Asset card'
+targetEntityType: node
+cache: true

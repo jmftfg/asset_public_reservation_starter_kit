@@ -1,0 +1,11 @@
+enabled_default: 0
+default_challenge: captcha/Math
+description: 'Aquesta pregunta es fa per comprovar si vostè és o no una persona real i impedir l''enviament automatitzat de missatges brossa.'
+administration_mode: false
+allow_on_admin_pages: false
+add_captcha_description: true
+default_validation: 1
+persistence: 1
+enable_stats: false
+log_wrong_responses: false
+langcode: ca

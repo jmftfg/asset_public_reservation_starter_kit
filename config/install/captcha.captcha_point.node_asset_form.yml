@@ -1,0 +1,6 @@
+langcode: ca
+status: false
+dependencies: {  }
+formId: node_asset_form
+captchaType: default
+label: null

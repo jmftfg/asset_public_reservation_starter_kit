@@ -1,0 +1,71 @@
+name: Asset public reservation Starter Kit
+type: profile
+description: 'Starter kit for make your site a public reservation for assets you manage.'
+core_version_requirement: '^8.8 || ^9'
+
+install:
+  - automated_cron
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - captcha
+  - ckeditor
+  - color
+  - comment
+  - config
+  - contact
+  - contextual
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - entity_print
+  - field
+  - field_ui
+  - file
+  - filter
+  - help
+  - history
+  - image
+  - language
+  - link
+  - locale
+  - mailsystem
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - path_alias
+  - quickedit
+  - rdf
+  - recaptcha_v3
+  - search
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - token
+  - toolbar
+  - tour
+  - update
+  - user
+  - views_ui
+  - webform
+  - webform_attachment
+  - webform_entity_print
+  - webform_entity_print_attachment
+  - webform_entity_view
+  - webform_share
+  - webform_ui
+  - views
+ 
+dependencies:
+  - node
+  - views
+
+themes:
+  - bartik
+  - seven

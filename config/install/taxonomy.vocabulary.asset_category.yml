@@ -1,0 +1,7 @@
+langcode: und
+status: true
+dependencies: {  }
+name: 'Asset category'
+vid: asset_category
+description: ''
+weight: 0
